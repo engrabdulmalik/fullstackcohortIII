@@ -1,6 +1,5 @@
 .box {
   background-color: aquamarine;
- 
 }
 .flex-container {
   display: flex;
@@ -8,24 +7,23 @@
   height: 400px;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  
-    /*  main axis */
-    /* justify-content: center;
+
+  /*  main axis */
+  /* justify-content: center;
     /* cross axis */
-    /* align-items: center; */
-    /* align-self:self-start; */
-    /* align-content: center; */
+  /* align-items: center; */
+  /* align-self:self-start; */
+  /* align-content: center; */
 }
-.box1 {
+#box1 {
   background-color: red;
   border: 4px dotted orange;
   border-radius: 10px;
   padding-left: 10px;
   /* margin: 10px; */
   width: 50px;
-   height: 50px;
-   /* flex-grow: 1; */
-
+  height: 50px;
+  /* flex-grow: 1; */
 }
 .box2 {
   background-color: blue;
@@ -34,8 +32,8 @@
   padding: 10px;
   margin: 10px;
   width: 500px;
-    height: 50px;
-    flex-shrink: 1;
+  height: 50px;
+  flex-shrink: 1;
 }
 .box3 {
   background-color: green;
@@ -44,7 +42,7 @@
   padding: 10px;
   margin: 10px;
   width: 50px;
-    height: 50px;
+  height: 50px;
 }
 .box4 {
   background-color: yellow;
@@ -53,7 +51,7 @@
   padding: 10px;
   margin: 10px;
   width: 50px;
-    height: 50px;
+  height: 50px;
 }
 .box5 {
   background-color: black;
@@ -63,4 +61,8 @@
   margin: 10px;
   width: 50px;
   height: 50px;
+}
+
+p {
+  color: red;
 }
