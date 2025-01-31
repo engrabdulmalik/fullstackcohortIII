@@ -9,13 +9,10 @@
 }
 
 @keyframes bounce {
-  0% {
+  from {
     transform: translate3d(0, 0, 0);
   }
-  50% {
+  to {
     transform: translate3d(300px, 500px);
-  }
-  100% {
-    transform: translate3d(600px, 0, 0);
   }
 }
