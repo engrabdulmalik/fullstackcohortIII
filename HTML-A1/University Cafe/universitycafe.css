@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    color: firebrick;
+}
+.nav {
+    margin: 20px 0;
+}
+.nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background: #d35400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav a:hover {
+    background: firebrick;
+}
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.header {
+    display: flex;
+    margin: 17px 0;
+}
+
+.logo {
+    width: 95px;
+    height: auto;
+    margin-right: 190px;
+}
