@@ -9,7 +9,7 @@ class Drinks(models.Model):
         return self.drink_name
 
 class DrinksCategory(models.Model):
-    category_id=models.IntegerField(primary_key=True)
+    category_id=models.AutoField(primary_key=True)
     category_name=models.CharField(max_length=50)
     def __str__(self):
         return self.category_name
