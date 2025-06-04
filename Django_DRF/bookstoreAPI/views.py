@@ -8,3 +8,10 @@ from rest_framework import generics
 class BookList(generics.ListCreateAPIView):
     queryset = models.Book.objects.all()
     serializer_class = serializers.BookSerializer
+    ordering_fields = ['id']
+    search_fields = ['title', 'author']
+    filterset_fields = ['title']
+
+class BookDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = models.Book.objects.all()
+    serializer_class = serializers.BookSerializer
